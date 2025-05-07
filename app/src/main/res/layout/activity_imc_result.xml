@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FF9500"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tv_person_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome da Pessoa"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#fff"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tv_imc_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IMC: 00.0"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#fff"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tv_imc_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status IMC"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#fff"
+            android:paddingBottom="8dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_imc_advice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Texto de aviso"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#1d1d1d"
+            android:paddingBottom="16dp" />
+
+        <ImageView
+            android:id="@+id/iv_imc_image"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:contentDescription="Imagem IMC"
+            android:paddingBottom="24dp"
+            android:scaleType="fitCenter" />
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Excluir Pessoa"
+            android:backgroundTint="#D32F2F"
+            android:textColor="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Voltar"
+            android:backgroundTint="#116fff"
+            android:textColor="#FFFFFF"
+            android:padding="12dp" />
+    </LinearLayout>
+</ScrollView>

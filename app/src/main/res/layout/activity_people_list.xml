@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#116fff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tv_list_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lista de Pessoas"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFF"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="16dp"/>
+
+    <ListView
+        android:id="@+id/lv_persons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_list_title"
+        android:dividerHeight="1dp"
+        android:textColor="#FFFFFF"
+        android:background="#ff9500"/>
+
+    <Button
+        android:id="@+id/btn_back_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voltar"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#0D47A1"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>
