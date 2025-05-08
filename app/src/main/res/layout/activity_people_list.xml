@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="#116fff"
+    android:background="#1160ff"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="24dp">
+
 
     <TextView
         android:id="@+id/tv_list_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Lista de Pessoas"
+        android:text="Lista de Pessoas\n IMC"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#FFF"
+        android:textStyle="bold"
+        android:textSize="24dp"
         android:layout_centerHorizontal="true"
-        android:paddingBottom="16dp"/>
+        android:paddingBottom="16dp"
+        android:gravity="center"/>
 
     <ListView
         android:id="@+id/lv_persons"
@@ -29,6 +33,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Voltar"
+        android:textStyle="bold"
+        android:textSize="20dp"
         android:layout_alignParentBottom="true"
         android:layout_marginTop="16dp"
         android:backgroundTint="#0D47A1"

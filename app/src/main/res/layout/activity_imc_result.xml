@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="#FF9500"
+    android:background="#ff9500"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="24dp">
@@ -10,6 +10,13 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/icone_app"
+            android:layout_marginBottom="50dp">
+        </ImageView>
 
         <TextView
             android:id="@+id/tv_person_name"
@@ -68,11 +75,12 @@
 
         <Button
             android:id="@+id/btn_back"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Voltar"
-            android:backgroundTint="#116fff"
-            android:textColor="#FFFFFF"
-            android:padding="12dp" />
+            android:textStyle="bold"
+            android:backgroundTint="#1160ff"
+            android:textColor="#fff"
+            android:padding="20dp" />
     </LinearLayout>
 </ScrollView>
